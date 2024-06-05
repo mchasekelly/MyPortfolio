@@ -1,0 +1,73 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.25fr 1fr 1fr 0.25fr;
+  
+    grid-template-areas: 
+    "header header header header"
+    ". nav nav ."
+    "aboutme aboutme aboutme aboutme"
+    ". projects skills ."
+    "footer footer footer footer";
+    }
+  
+    header {
+      grid-area: header;
+    }
+    nav {
+      grid-area: nav;
+    }
+    .aboutme {
+      grid-area: aboutme;
+    }
+    .projects {
+      grid-area: projects;
+    }
+    .skills {
+      grid-area: skills;
+    }
+    footer {
+      grid-area: footer;
+    }
+
+/*   Elements   */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  
+  nav ul, .intro ul {
+    list-style-type: none;
+  }
+  
+  .projects ul, .skills ol {
+    list-style-type: circle;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  header, .skills h2, .projects h2 {
+    font-family: Pacifico, Geneva, Verdana, sans-serif;
+  }
+  
+  nav {
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  
+  
+  
