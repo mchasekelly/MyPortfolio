@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -34,8 +38,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100%;
-    width: 100%;
+    max-width: 100%; 
+    margin: 0, auto;
   }
   
   nav ul, .intro ul {
